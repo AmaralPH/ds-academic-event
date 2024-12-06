@@ -2,6 +2,8 @@ package com.amaralph.ds_academic_event.entities;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -13,6 +15,9 @@ public class Categoria {
     private Long id;
 
     private String descricao;
+
+    @OneToMany(mappedBy = "categoria")
+    private List<Atividade> atividades = new ArrayList<>();
 
     public Categoria() {
     }
