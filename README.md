@@ -11,3 +11,6 @@ cadastrar seu nome e email.
 
 # Instância de dados para seeding
 ![image](https://github.com/user-attachments/assets/a8d55778-a6bc-4ef2-9956-710a7b05cda4)
+
+# Avaliação
+![image](https://github.com/user-attachments/assets/a8d71ce3-abcb-4245-afd3-2ea6c54a6eea)
